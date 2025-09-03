@@ -1,7 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 
-# ---------- helpers ----------
+# ---------- helpers --------- 
 def read_pdf(file_obj) -> str:
     """
     Extract text from a PDF using PyMuPDF (fitz) if available,
